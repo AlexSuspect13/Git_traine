@@ -1,6 +1,6 @@
 let moveZeros = function (arr) {
-  let arr1 = [];
-  let arr2 = [];
+  const arr1 = [];
+  const arr2 = [];
   let result;
   for (let i = 0; i < arr.length; i++) {
   if (arr[i] ===  0) {
