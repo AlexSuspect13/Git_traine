@@ -7,7 +7,7 @@
  * @author Komarovsky Andrey (askomar)
  *
  * Task short description:
- *  Write aa fucntion that given a floor in the american system returns the 
+ *  Write a fucntion that given a floor in the american system returns the 
  * floor in the european system
  */
 function getRealFloor(n) {
