@@ -10,3 +10,4 @@ public class Kata
     return String.Join(" ", sentence.Split(' ').Select(str => str.Length >= 5 ? new string(str.Reverse().ToArray()) : str));
   }
 }
+ 
