@@ -1,0 +1,12 @@
+function songDecoder(song){
+  let del = 'WUB';
+  let result = '';
+  let part = song.split(del);
+  for(let i = 0; i < part.length; ++i){
+    if(part[i] != ''){
+      result = result + ' ' + part[i];
+    }
+  }
+  result = result.trim();
+  return result;
+}
