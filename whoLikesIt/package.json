@@ -1,0 +1,14 @@
+{
+  "name": "wholikesit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "whoLikesIt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.2"
+  }
+}
