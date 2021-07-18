@@ -2,16 +2,16 @@ const assert = require('assert');
 const calculator = require('../calculate_bmi.js');
 
 describe('#bmi()', () => {
-  it('In result we have Normal string', () => {
+  it('Should return a normal result', () => {
     assert.strictEqual(calculator.bmi(80, 1.8), 'Normal');
   });
-  it('In result we have Underweight string', () => {
+  it('Should return an underweight result', () => {
     assert.strictEqual(calculator.bmi(50, 1.8), 'Underweight');
   });
-  it('In result we have Overweight string', () => {
+  it('Should return an overweight result', () => {
     assert.strictEqual(calculator.bmi(80, 1.7), 'Overweight');
   });
-  it('In result we have Obese string', () => {
+  it('Should return an obese result', () => {
     assert.strictEqual(calculator.bmi(80, 1.6), 'Obese');
   });
 });
