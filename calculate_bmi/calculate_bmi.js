@@ -14,3 +14,5 @@ function bmi(weight, height) {
       return 'Obese';
   }
 }
+
+exports.bmi = bmi;
