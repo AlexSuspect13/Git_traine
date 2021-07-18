@@ -11,6 +11,7 @@ on:
     types: [opened, reopened, labeled, unlabeled, synchronize, review_requested, review_request_removed]
     branches:
       - main
+      - dev
 
 jobs:
   unresolvedReviewThreads:
