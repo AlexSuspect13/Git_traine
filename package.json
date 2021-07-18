@@ -1,0 +1,30 @@
+{
+  "name": "Git_traine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-jest": "jest --coverage",
+    "test-mocha": "mocha ./**/*.mocha.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSuspect13/Git_traine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSuspect13/Git_traine/issues"
+  },
+  "homepage": "https://github.com/AlexSuspect13/Git_traine#readme",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6",
+    "mocha": "^9.0.2"
+  }
+}
