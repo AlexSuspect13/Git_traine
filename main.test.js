@@ -2,7 +2,7 @@ const sum = require('./main')
 
 describe('main success', () => {
     it('should return 3', () => {
-        expect(sum([1, 2])).toBe(4)
+        expect(sum([1, 2])).toBe(3)
     })
 
     it('should return 15', () => {
