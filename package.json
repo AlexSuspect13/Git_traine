@@ -1,0 +1,23 @@
+{
+  "name": "Git_traine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSuspect13/Git_traine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSuspect13/Git_traine/issues"
+  },
+  "homepage": "https://github.com/AlexSuspect13/Git_traine#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
