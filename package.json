@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test-jest": "jest --coverage",
-    "test-mocha": "mocha",
+    "test-mocha": "mocha ./**/*.mocha.js", 
     "lint": "eslint ."
   },
   "repository": {
